@@ -1,7 +1,9 @@
+import Nav from "./Components/Nav";
+
 export default function Home() {
   return (
     <div>
-      <h1 className="text-white">Hola Mundo</h1>
+      <Nav />
     </div>
   );
 }
